@@ -17,16 +17,10 @@ A organização segue uma estrutura progressiva, onde os conteúdos são separad
 
 ## 🗂 Estrutura
 
-| Pasta                   | Conteúdo                                                      |
-|-------------------------|---------------------------------------------------------------|
-| `01-variaveis-e-entrada`| Programas com entrada de dados (`scanf`, `printf`)            |
-| `02-condicionais`       | Estruturas `if`, `else`, `switch`                             |
-| `03-loops`              | Laços de repetição: `for`, `while`, `do-while`                |
-| `04-funcoes`            | Declaração e uso de funções                                   |
-| `05-arrays-e-strings`   | Vetores, strings e manipulação de dados                       |
-| `06-ponteiros`          | Ponteiros, referência e manipulação de memória                |
-| `07-projetos-finais`    | Pequenos sistemas ou desafios mais completos                  |
-| `testes`                | Rascunhos, experimentações e códigos livres                   |
+| Pasta               | Descrição                                                   |
+|---------------------|-------------------------------------------------------------|
+| `01-...` a `07-...` | Módulos práticos com códigos organizados por etapa de estudo |
+| `testes`            | Rascunhos, experimentações e códigos avulsos                 |
 
 ---
 
