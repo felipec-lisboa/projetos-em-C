@@ -31,7 +31,6 @@ int main()
     RetornoDaFuncao = SomaNumeros(200, -300);
     cout << RetornoDaFuncao << endl;
     cout << SomaNumeros(Numero, SomaNumeros(150,1400));
-    system("PAUSE");
 
 
 
