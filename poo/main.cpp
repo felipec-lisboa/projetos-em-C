@@ -27,6 +27,7 @@ int main()
 
 void Casa::MostrarTamanho()
 {
+
     cout << "\nTamanho: " << Tamanho;
 }
 
