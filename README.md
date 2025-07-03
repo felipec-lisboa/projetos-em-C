@@ -1,9 +1,5 @@
 # 📘 Projetos em C e C++
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](#)
-[![Repo Size](https://img.shields.io/github/repo-size/usuario/repositorio)](#)
-[![Last Commit](https://img.shields.io/github/last-commit/usuario/repositorio)](#)
-
 ---
 
 Este repositório reúne **códigos**, **exercícios** e **pequenos projetos** desenvolvidos durante meu processo de aprendizado nas linguagens **C** e **C++**.  
