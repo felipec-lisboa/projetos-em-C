@@ -14,15 +14,15 @@ public:
         idade = _idade;
     }
     ~Pessoa();
-    void mostraPessoa();
+    virtual void mostra();
 };
 Pessoa::~Pessoa()
 {
     cout << "Classe destruida"<<endl;
 }
-void Pessoa::mostraPessoa()
+void Pessoa::mostra()
 {
-
+    cout<<"pessoa mostra"<< endl;
     cout << "Nome: "<< nome<< "\n"<< "Idade: "<< idade<< endl;
 }
 
@@ -36,8 +36,9 @@ public:
     {
         salario = _salario;
     }
-    void mostraCliente()
+    void mostra()
     {
+        cout<<"Cliente mostra"<< endl;
         cout << "Nome: "<< nome<< "\n"<< "Idade: "<< idade<< "\n"<<"Salario: " << salario <<endl;
 
     }
@@ -48,12 +49,12 @@ public:
 int main()
 {
 
-    Pessoa p1("Felipe", 18);
-    Pessoa p2("Maria", 68);
+  //  Pessoa p1("Felipe", 18);
+//    Pessoa p2("Maria", 68);
     Cliente c1("Julia",15,1000.52);
-    p1.mostraPessoa();
-    p2.mostraPessoa();
-    c1.mostraCliente();
+//    p1.mostra();
+  //  p2.mostra();
+    c1.mostra();
 
     return 0;
 }
